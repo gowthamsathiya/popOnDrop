@@ -19,8 +19,8 @@ def getaccesstoken():
 
     else: #Generating access token using app_key and app_secret
     	atfile = open('atfile.txt','w')
-    	app_key = 'r8hwrsf7taokz5y'
-    	app_secret = '23kv3jlo846jl9f'
+    	app_key = 'xxxxxxxxxxx'
+    	app_secret = 'xxxxxxxxxxx'
         flow = dropbox.client.DropboxOAuth2FlowNoRedirect(app_key, app_secret)
         print 'Go here and "allow": %s' % flow.start()
     	code = raw_input('Paste in your authorization code: ').strip()
