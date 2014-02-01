@@ -1,0 +1,13 @@
+popOnDrop is a dropbox addon that helps storing encrypted files to your dropbox account in cloud and helps decrypting the encrypted one and get notification on addition/updation of .txt or .doc file types and on deletion of any files.
+
+popOnDrop works on linux powered using python.
+
+System requirement:
+Python 2.7+
+PyQt4 (Indeed depends on SIP. Installation instructions can be found in "http://pyqt.sourceforge.net/Docs/PyQt4/installation.html")
+Dropbox API (Installation instructions and downloads can be found in "https://www.dropbox.com/developers/core/sdks/python")
+
+How to run?
+>python popOnDrop.py
+
+Notification on updation process is set to run even on closing of popOnDrop GUI to upload. This should be killed manually to stop.
